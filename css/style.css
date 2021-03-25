@@ -27,7 +27,7 @@
 .languages {
     padding-right: 0.2rem;
 }
-.arrow {
+.ar_br {
     border-right: 1px solid #33475b;
     padding-right: 1rem;
     margin-right: 0.5rem;
@@ -37,10 +37,15 @@
 }
 .menu_right {
     float: right;
+    vertical-align: middle;
 }
 a {
     text-decoration: none;
     list-style: none;
+}
+.search > img {
+    height: 15px;
+    vertical-align: middle;
 }
 .login {
     border: 2px solid #ff7a59;
@@ -56,15 +61,30 @@ a {
     color: white;
     font-weight: 600;
 }
+.logo {
+    height: 30px;
+    vertical-align: middle;
+}
+.menu_right > .link, .arrow {
+    line-height: 30px;
+}
 .btno1 {
     padding: 0.5rem;
-    
+}
+.link {
+    margin: 0 0.5rem;
+}
+.arrow {
+    margin-left: 0.2rem;
 }
 
 /* SECOND HEADER */
 .bg_salmon {
-    background-color: rgb(255, 198, 175);
-    height: 80vh;
+    height: 100vh;
+    background-image: url('../img/jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .ctn_h {
     height: 100%;
@@ -89,3 +109,13 @@ a {
     margin: 2.2rem 0 2.3rem;
 }
 
+.footerofheader {
+    height: 80px;
+    width: 100%;
+    background-color: turquoise;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
