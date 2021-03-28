@@ -286,7 +286,7 @@ h3 {
 
 /* BG VERDE */
 .bg_section2 {
-    background-color: #00A8B9;
+    background-color: rgba(0, 168, 186, 1);
 }
 .bg_text > h2, .bg_text > p {
     color: white;
@@ -388,4 +388,77 @@ h3 {
 .ctn4_r > img {
     height: 250px;
 
+}
+
+/* FOOTER */
+footer {
+    background-color: #32495B;
+}
+ul > li {
+    color: white;
+    font-size: 13.5px;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+ul > li:first-child {
+    font-weight: 600;
+}
+.ul_footer {
+    width: calc(100% / 4);
+    float: left ;
+}
+
+.btn_white {
+    color: #32495B;
+    background-color: white;
+    padding: 0.8rem;
+    font-size: 13.5px;
+    border-radius: 0.4rem;
+}
+.social > i {
+    color: white;
+    padding-top: 2rem;
+}
+.link_footer {
+    padding-top: 2rem;
+    width: calc(100% / 4);
+    float: right;
+}
+
+.social > i:not(i:last-child) {
+    padding-right: 1.4rem;
+}
+.list {
+    padding: 1rem 0 ;   
+}
+
+.box_lenguages {
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.box_lenguages > a {
+    color: white;
+    padding: 1rem 0.5rem;
+
+}
+.list > hr {
+    background-color: white;
+    width: 100%;
+}
+.copy {
+    color: white;
+    font-size: 13.5px;
+    padding-top: 0.1rem;
+}
+.document > a {
+    color: white;
+    font-size: 13.5px;
+    padding: 0 0.5rem;
+}
+.final_footer {
+    padding: 1rem 0 2rem;
 }
