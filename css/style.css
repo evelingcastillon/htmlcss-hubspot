@@ -14,14 +14,17 @@
     width: 65%;
     margin: 0 auto;
 }
-/* NAV 1 */
+/**************** NAV 1 ******************/
 .navig {
     font-size: 12px;
     padding: 0.8rem 0;
 }
 .navig1 {
     background-color:#F4F9FD ;
-
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px solid #33475b;
 }
 .clearflix::after {
     content: "";
@@ -29,7 +32,7 @@
     clear: both;
 }
 .languages {
-    padding-right: 0.2rem;
+    
 }
 .ar_br {
     border-right: 1px solid #33475b;
@@ -37,11 +40,12 @@
     margin-right: 0.5rem;
 }
 .menu_left {
-    float: left;
+    float: left;    
 }
 .menu_right {
     float: right;
     line-height: 25px;
+    vertical-align: middle;
 }
 .menu_right > a {
     vertical-align: middle;
@@ -63,7 +67,7 @@ a {
     margin: 0 0.8rem;
     background-color: white;
     vertical-align: middle;
-
+    
 }
 .btn_orange {
     background-color: #ff7a59;
@@ -75,24 +79,56 @@ a {
 hr {
     background-color: #33475b;
 }
-/* nav 2 */
+.languages {
+    display: inline-block;
+    padding-right: 0.2rem;
+}
+.languages a:hover {
+    color: #0091ae;
+    font-weight: 600;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown_content > a {
+    display: block;
+    padding: 12px 16px;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid #aaaeb1;
+    min-width: 10px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown_content a:hover {
+    text-decoration: underline;
+    color: #0091ae;
+    font-weight: 600;
+}
+/* NAV 2 */
+.navig2 {
+    padding-top: 4rem;
+}
 .logo {
     height: 30px;
     vertical-align: middle;
 }
-.menu_right > .link, .arrow {
-    line-height: 30px;
-}
+
 .btno1 {
     padding: 0.5rem;
 }
 .link {
     margin: 0 0.5rem;
 }
-.arrow {
+i {
     margin-left: 0.2rem;
 }
-
 /* SECOND HEADER */
 .bg_salmon {
     height: 100vh;
